@@ -1,0 +1,23 @@
+[package]
+name = "janaushadhi-cli"
+version = "0.1.0"
+edition = "2024"
+description = "Unofficial CLI for the Jan Aushadhi (PMBJP) public REST API — medicines, kendras, tenders, reports and more, fetched live."
+license = "MIT"
+
+[[bin]]
+name = "janaushadhi"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "2", features = ["json"] }
+base64 = "0.22"
+comfy-table = "7"
+csv = "1"
+
+[profile.release]
+lto = "thin"
+strip = true
