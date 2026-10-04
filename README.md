@@ -14,7 +14,8 @@ gallery data and more, straight from `janaushadhi.gov.in`.
 Requires a Rust toolchain (edition 2024, recent stable).
 
 ```bash
-cargo install --path .        # installs `janaushadhi` into ~/.cargo/bin
+cargo install --git https://github.com/HarshalRathore/janaushadhi-cli   # straight from GitHub
+cargo install --path .        # from a local clone; installs `janaushadhi` into ~/.cargo/bin
 # or
 cargo build --release         # binary at target/release/janaushadhi
 ```

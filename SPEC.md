@@ -63,6 +63,6 @@ Plus `datasets` (discoverability), `doctor` (health check), and
 
 ## Identity
 
-- Binary `janaushadhi`, crate `janaushadhi-cli`, repo `~/Projects/janaushadhi-cli`,
-  MIT license. Local git; publish decision deferred.
+- Binary `janaushadhi`, crate `janaushadhi-cli`, repo
+  https://github.com/HarshalRathore/janaushadhi-cli (public, MIT license).
 - Upstream API is unofficial and may drift; `doctor` is the canary.
